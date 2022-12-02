@@ -1,0 +1,27 @@
+body{
+    background: rgb(135, 49, 206);
+    color: black;
+    text-align: center;
+    font-family: lucida sans;
+}
+.titulo{
+    border: 3px solid rgba(250, 78, 10, 0.781);
+
+    transform: scale(0.9) rotate(0deg);
+    animation: piscar 0.3s infinite;
+    align-items: center;
+}
+@keyframes piscar{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    10%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.atividade{
+    border: 1px solid white;
+    display: block;
+}
